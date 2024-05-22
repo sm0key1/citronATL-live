@@ -2,6 +2,78 @@ body {
   text-align: center;
   font-size: 25px;
 }
-p {
-  color: blue;
+/* sweet science*/
+
+#backdrop {
+  position: relative;
+  top: 30px;
+  left: 29px;
+  width: 23rem;
+  height: 200px;
+  border: 2px solid red;
+  padding: 5px;
+  border-radius: 28px;
+}
+#slogan {
+  position: relative;
+  bottom: 50px;
+  font-size: 70px;
+}
+#center {
+  position: relative;
+  bottom: 19rem;
+  right: 49px;
+  font-size: 80px;
+}
+#firstname {
+  font-family: Impact, fantasy;
+  font-weight: bold;
+}
+#lastname {
+  position: relative;
+  bottom: 8rem;
+  font-family: Snell Roundhand, cursive;
+  font-style: italic;
+}
+#Starz {
+  position: relative;
+  bottom: 50rem;
+  left: 55rem;
+  border: 4px solid;
+  width: 30rem;
+}
+#starring {
+  width: 30rem;
+}
+#group {
+  position: relative;
+  bottom: 49rem;
+  right: 31rem;
+}
+.circle {
+  background: white;
+  border: 3px solid;
+  border-radius: 50%;
+
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+#passage {
+  position: relative;
+  bottom: 47rem;
+  left: 28px;
+  border-radius: 28px;
+  width: 24rem;
+  height: 50rem;
+  border: 3px solid;
+  background: white;
+}
+#extract {
+  position: relative;
+  bottom: 100rem;
+  left: 29rem;
+  width: 54rem;
+  color: grey;
+  font-size: xx-large;
 }
