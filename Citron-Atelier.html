@@ -3,16 +3,22 @@
   <head>
     <link rel="stylesheet" href="styles.css" />
     <title>coming soon 3 months</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
+
   <body>
-    <header>
+    <header class="topper">
       <div id="backdrop">
         <h3 id="slogan">The Sweet Science</h3>
       </div>
 
       <div id="center">
         <h1 id="firstname">Citron</h1>
-        <h5 id="lastname">Atelier .</h5>
+        <h5 id="lastname">Atelier</h5>
       </div>
 
       <div id="Starz">
@@ -25,6 +31,17 @@
       <div class="circle"></div>
       <div class="circle"></div>
     </div>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+    <span style="font-size: 50px; cursor: pointer" onclick="openNav()">
+      ☰ Open
+    </span>
 
     <div id="passage">
       <p></p>
@@ -50,9 +67,6 @@
       </div>
     </div>
 
-    <div id="test">
-      <p>CITRON</p>
-      <p>atelier</p>
-    </div>
+    <script src="myscript.js"></script>
   </body>
 </html>

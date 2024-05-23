@@ -6,14 +6,16 @@ body {
 
 #backdrop {
   position: relative;
-  top: 30px;
-  left: 29px;
+
+  top: 15px;
+  left: 18px;
   width: 23rem;
   height: 200px;
   border: 2px solid red;
   padding: 5px;
   border-radius: 28px;
 }
+
 #slogan {
   position: relative;
   bottom: 50px;
@@ -22,7 +24,7 @@ body {
 #center {
   position: relative;
   bottom: 19rem;
-  right: 49px;
+  right: 60px;
   font-size: 80px;
 }
 #firstname {
@@ -35,6 +37,7 @@ body {
   font-family: Snell Roundhand, cursive;
   font-style: italic;
 }
+
 #Starz {
   position: relative;
   bottom: 50rem;
@@ -76,4 +79,99 @@ body {
   width: 54rem;
   color: grey;
   font-size: xx-large;
+}
+
+@media screen and (max-width: 300px) {
+  body {
+    background-color: black;
+  }
+  #backdrop {
+    display: none;
+  }
+  #slogan {
+    display: none;
+  }
+  #starz {
+    display: none;
+  }
+  #starring {
+    display: none;
+  }
+  #passage {
+    display: none;
+  }
+  #center {
+    position: relative;
+    left: 19rem;
+    top: 5rem;
+    font-size: 65px;
+    color: white;
+    /* border: 4px solid white;
+    border-radius: 16%;*/
+    width: 37rem;
+    height: 20rem;
+    /* padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;*/
+  }
+  #firstname {
+    position: relative;
+    bottom: 8rem;
+    left: 6rem;
+
+    font-family: FreeMono, monospace;
+    font-weight: bold;
+  }
+  #lastname {
+    position: relative;
+    bottom: 17rem;
+    left: 6rem;
+    font-family: Apple Chancery, cursive;
+    font-style: italic;
+    font-size: 5rem;
+  }
+  span {
+    color: white;
+    position: relative;
+    bottom: 36rem;
+    right: 2rem;
+  }
+
+  .sidenav {
+    text-align: center;
+    height: 98%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0288d1;
+    overflow-x: hidden;
+    transition: 11s;
+    padding-top: 1px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.1s;
+    padding: 30px;
+  }
+
+  .sidenav a:hover,
+  .offcanvas a:focus {
+    color: #f1f1f1;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+  }
 }
