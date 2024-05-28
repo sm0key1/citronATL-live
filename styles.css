@@ -757,7 +757,7 @@ body {
       color: white;
       position: relative;
       bottom: 27rem;
-      left: 2rem;
+      left: 4rem;
       font-size: 4.3rem;
     }
   }
@@ -783,8 +783,8 @@ body {
       color: white;
       position: relative;
       bottom: 27rem;
-      left: -9px;
-      font-size: 3rem;
+      left: 29px;
+      font-size: 6rem;
     }
   }
 }
@@ -819,6 +819,7 @@ body {
     padding-top: 1px;
   }
 }
+
 @media only screen and (min-width: 330px) {
   * {
     margin: 0;
@@ -830,7 +831,7 @@ body {
   /* citron atelier */
   #center {
     position: relative;
-    left: 18rem;
+    left: 19rem;
     top: 6rem;
     color: white;
   }
@@ -852,8 +853,8 @@ body {
   span {
     color: white;
     position: relative;
-    bottom: 28rem;
-    left: 2rem;
+    bottom: 15rem;
+    left: 5rem;
     font-size: 10rem;
   }
 
