@@ -379,7 +379,7 @@ body {
   .sidenav {
     text-align: center;
     height: 98%;
-    width: 150px;
+    width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -807,7 +807,7 @@ body {
     height: 100%;
 
     /* width of blue side */
-    width: 219px !important  ;
+    width: 0;
 
     position: fixed;
     z-index: 1;
@@ -862,7 +862,7 @@ body {
     height: 100%;
 
     /* width of blue side */
-    width: 230px !important  ;
+    width: 0;
 
     position: fixed;
     z-index: 1;
