@@ -1,12 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   text-align: center;
   font-size: 25px;
 }
-/* sweet science*/
+/* red border*/
 
 #backdrop {
   position: relative;
-
   top: 15px;
   left: 18px;
   width: 23rem;
@@ -15,25 +18,23 @@ body {
   padding: 5px;
   border-radius: 28px;
 }
-
+/* sweet scinece*/
 #slogan {
   position: relative;
   bottom: 50px;
   font-size: 70px;
 }
+/* citron atelier */
 #center {
   position: relative;
-  bottom: 19rem;
-  right: 60px;
-  font-size: 80px;
+  left: 15rem;
+  bottom: 15rem;
 }
 #firstname {
   font-family: Impact, fantasy;
   font-weight: bold;
 }
 #lastname {
-  position: relative;
-  bottom: 8rem;
   font-family: Snell Roundhand, cursive;
   font-style: italic;
 }
@@ -42,7 +43,7 @@ body {
   position: relative;
   bottom: 50rem;
   left: 55rem;
-  border: 4px solid;
+
   width: 30rem;
 }
 #starring {
@@ -64,7 +65,7 @@ body {
 }
 #passage {
   position: relative;
-  bottom: 47rem;
+
   left: 28px;
   border-radius: 28px;
   width: 24rem;
@@ -74,16 +75,62 @@ body {
 }
 #extract {
   position: relative;
-  bottom: 100rem;
   left: 29rem;
   width: 54rem;
   color: grey;
   font-size: xx-large;
 }
+#previewer {
+  position: relative;
+  bottom: 110rem;
+  left: 2rem;
+  background-color: whitesmoke;
+  width: 98rem;
+  height: 60rem;
+  border: solid 2px;
+}
+#left-click {
+  position: relative;
+  right: 40rem;
+  display: inline-block;
+}
+#right-click {
+  position: relative;
+  left: 40rem;
+  display: inline-block;
+}
+.screen {
+  position: relative;
+  top: 25rem;
+  font-size: 9rem;
+}
 
-@media screen and (max-width: 300px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*
+@media only screen and (min-width: 230px){
+
+}
+@media only screen and (min-width: 330px) {
   body {
-    background-color: black;
+    background-color: blue;
+  }
+  #center {
+    font-size: 100rem;
+    position: relative;
+    left: 5rem;
+    bottom: 15rem;
+  }
+  #firstname {
+    position: relative;
+  }
+  #lastname {
+    position: relative;
   }
   #backdrop {
     display: none;
@@ -100,42 +147,41 @@ body {
   #passage {
     display: none;
   }
+  #extract {
+    display: none;
+  }
+}*/
+/* iphone 14 screen territory */
+/* 460*/
+@media only screen and (min-width: 50px) {
+  body {
+    background-color: black;
+  }
   #center {
+    text-align: center;
     position: relative;
-    left: 19rem;
-    top: 5rem;
-    font-size: 65px;
     color: white;
-    /* border: 4px solid white;
-    border-radius: 16%;*/
-    width: 37rem;
-    height: 20rem;
-    /* padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;*/
+
+    top: 21rem;
+    font-size: 1rem;
   }
   #firstname {
     position: relative;
-    bottom: 8rem;
-    left: 6rem;
-
-    font-family: FreeMono, monospace;
-    font-weight: bold;
+    right: 8rem;
+    bottom: 20rem;
   }
   #lastname {
     position: relative;
-    bottom: 17rem;
-    left: 6rem;
-    font-family: Apple Chancery, cursive;
-    font-style: italic;
-    font-size: 5rem;
+    bottom: 20rem;
+    right: 7rem;
   }
   span {
     color: white;
     position: relative;
-    bottom: 36rem;
-    right: 2rem;
+    bottom: 24rem;
+    left: 1rem;
+    font-size: 1rem;
+    display: none;
   }
 
   .sidenav {
@@ -174,4 +220,1052 @@ body {
     font-size: 36px !important;
     margin-left: 50px;
   }
+
+  #backdrop {
+    display: none;
+  }
+  #slogan {
+    display: none;
+  }
+  #starz {
+    display: none;
+  }
+  #starring {
+    display: none;
+  }
+  #passage {
+    display: none;
+  }
+  #extract {
+    display: none;
+  }
+  #previewer {
+    display: none;
+  }
 }
+@media only screen and (min-width: 79px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: black;
+    display: inline;
+  }
+  #center {
+    text-align: center;
+    position: relative;
+
+    color: white;
+    font-size: 0.9rem;
+  }
+  #firstname {
+    position: relative;
+    right: 4.5rem;
+    bottom: 19rem;
+    font-size: 3.5rem;
+  }
+  #lastname {
+    position: relative;
+    bottom: 19rem;
+    right: 3rem;
+    font-size: 2.2rem;
+  }
+  span {
+    color: white;
+    position: relative;
+    bottom: 26rem;
+    left: 2rem;
+    font-size: 2rem;
+    display: inline;
+  }
+
+  .sidenav {
+    text-align: center;
+    height: 98%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0288d1;
+    overflow-x: hidden;
+    transition: 11s;
+    padding-top: 1px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.1s;
+    padding: 30px;
+  }
+
+  .sidenav a:hover,
+  .offcanvas a:focus {
+    color: #f1f1f1;
+  }
+
+  .closebtn {
+    position: absolute;
+    bottom: 90px;
+    right: 1px;
+    font-size: 36px !important;
+    margin-left: 50px;
+  }
+
+  #backdrop {
+    display: none;
+  }
+  #slogan {
+    display: none;
+  }
+  #starz {
+    display: none;
+  }
+  #starring {
+    display: none;
+  }
+  #passage {
+    display: none;
+  }
+  #extract {
+    display: none;
+  }
+  #previewer {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 93px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: black;
+  }
+  #center {
+    text-align: center;
+    position: relative;
+    color: white;
+    left: 20rem;
+    top: 22rem;
+  }
+  #firstname {
+    position: relative;
+    right: 10rem;
+    bottom: 20rem;
+    font-size: 5rem;
+  }
+  #lastname {
+    position: relative;
+    bottom: 20rem;
+    right: 8rem;
+    font-size: 2.8rem;
+  }
+  span {
+    color: white;
+    position: relative;
+    bottom: 28rem;
+    left: 1rem;
+    font-size: 3rem;
+  }
+
+  .sidenav {
+    text-align: center;
+    height: 98%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0288d1;
+    overflow-x: hidden;
+    transition: 11s;
+    padding-top: 1px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.1s;
+    padding: 30px;
+  }
+
+  .sidenav a:hover,
+  .offcanvas a:focus {
+    color: #f1f1f1;
+  }
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+  }
+
+  #backdrop {
+    display: none;
+  }
+  #slogan {
+    display: none;
+  }
+  #starz {
+    display: none;
+  }
+  #starring {
+    display: none;
+  }
+  #passage {
+    display: none;
+  }
+  #extract {
+    display: none;
+  }
+  #previewer {
+    display: none;
+  }
+}
+@media only screen and (min-width: 140px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: black;
+  }
+  /* citron atelier */
+  #center {
+    position: relative;
+
+    top: 10rem;
+    color: white;
+  }
+  #firstname {
+    position: relative;
+    bottom: 9rem;
+    right: 10rem;
+    font-family: Impact, fantasy;
+    font-size: 7rem;
+  }
+  #lastname {
+    position: relative;
+    bottom: 10rem;
+    right: 6rem;
+    font-family: Apple Chancery, cursive;
+    font-style: italic;
+    font-size: 4rem;
+  }
+  span {
+    color: white;
+    position: relative;
+    bottom: 33rem;
+    left: 0.1rem;
+    font-size: 3.8rem;
+  }
+
+  .sidenav {
+    text-align: center;
+    height: 98%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0288d1;
+    overflow-x: hidden;
+    transition: 11s;
+    padding-top: 1px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.1s;
+    padding: 30px;
+  }
+
+  .sidenav a:hover,
+  .offcanvas a:focus {
+    color: #f1f1f1;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+
+    font-size: 36px !important;
+
+    margin-left: 50px;
+  }
+
+  #backdrop {
+    display: none;
+  }
+  #slogan {
+    display: none;
+  }
+  #starz {
+    display: none;
+  }
+  #starring {
+    display: none;
+  }
+  #passage {
+    display: none;
+  }
+  #extract {
+    display: none;
+  }
+  #previewer {
+    display: none;
+  }
+}
+@media only screen and (min-width: 150px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: black;
+  }
+  /* citron atelier */
+  #center {
+    position: relative;
+
+    top: 10rem;
+    color: white;
+  }
+  #firstname {
+    position: relative;
+    bottom: 9rem;
+    right: 7rem;
+    font-family: Impact, fantasy;
+    font-size: 6rem;
+  }
+  #lastname {
+    position: relative;
+    bottom: 10rem;
+    right: 5rem;
+    font-family: Apple Chancery, cursive;
+    font-style: italic;
+    font-size: 4rem;
+  }
+  span {
+    color: white;
+    position: relative;
+    bottom: 33rem;
+    left: 2rem;
+    font-size: 3.8rem;
+  }
+
+  .sidenav {
+    text-align: center;
+    height: 98%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0288d1;
+    overflow-x: hidden;
+    transition: 11s;
+    padding-top: 1px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.1s;
+    padding: 30px;
+  }
+
+  .sidenav a:hover,
+  .offcanvas a:focus {
+    color: #f1f1f1;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+  }
+
+  #backdrop {
+    display: none;
+  }
+  #slogan {
+    display: none;
+  }
+  #starz {
+    display: none;
+  }
+  #starring {
+    display: none;
+  }
+  #passage {
+    display: none;
+  }
+  #extract {
+    display: none;
+  }
+  #previewer {
+    display: none;
+  }
+}
+@media only screen and (min-width: 200px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: black;
+  }
+  /* citron atelier */
+  #center {
+    position: relative;
+    right: 9rem;
+    top: 10rem;
+    color: white;
+  }
+  #firstname {
+    position: relative;
+    bottom: 9rem;
+    right: 8rem;
+    font-family: Impact, fantasy;
+    font-size: 7rem;
+  }
+  #lastname {
+    position: relative;
+    bottom: 10rem;
+    right: 5rem;
+    font-family: Apple Chancery, cursive;
+    font-style: italic;
+    font-size: 4.8rem;
+  }
+  span {
+    color: white;
+    position: relative;
+    bottom: 34rem;
+    right: 2rem;
+    font-size: 4rem;
+  }
+
+  .sidenav {
+    text-align: center;
+    height: 98%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0288d1;
+    overflow-x: hidden;
+    transition: 11s;
+    padding-top: 1px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.1s;
+    padding: 30px;
+  }
+
+  .sidenav a:hover,
+  .offcanvas a:focus {
+    color: #f1f1f1;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+  }
+
+  #backdrop {
+    display: none;
+  }
+  #slogan {
+    display: none;
+  }
+  #starz {
+    display: none;
+  }
+  #starring {
+    display: none;
+  }
+  #passage {
+    display: none;
+  }
+  #extract {
+    display: none;
+  }
+  #previewer {
+    display: none;
+  }
+}
+@media only screen and (min-width: 210px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  #firstname {
+    position: relative;
+    bottom: 10rem;
+    right: 9rem;
+    font-size: 8rem;
+  }
+
+  #lastname {
+    position: relative;
+    bottom: 11rem;
+    right: 4rem;
+    font-size: 4rem;
+  }
+  span {
+    color: white;
+    position: relative;
+    bottom: 34rem;
+    left: 2rem;
+    font-size: 4.3rem;
+  }
+  @media only screen and (min-width: 219px) {
+    span {
+      color: white;
+      position: relative;
+      bottom: 27rem;
+      left: 2rem;
+      font-size: 4.3rem;
+    }
+  }
+  @media only screen and (min-width: 237px) {
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    #firstname {
+      position: relative;
+      bottom: 10rem;
+      right: 7rem;
+      font-size: 8rem;
+    }
+
+    #lastname {
+      position: relative;
+      bottom: 11rem;
+      right: 4rem;
+      font-size: 4rem;
+    }
+    span {
+      color: white;
+      position: relative;
+      bottom: 27rem;
+      left: -9px;
+      font-size: 3rem;
+    }
+  }
+}
+@media only screen and (min-width: 238px) {
+  #center {
+    position: relative;
+    top: 13rem;
+  }
+  #group {
+    display: none;
+  }
+  span {
+    position: relative;
+    bottom: 15rem;
+    left: 1rem;
+    font-size: 10rem;
+  }
+  .sidenav {
+    text-align: center;
+    height: 100%;
+
+    /* width of blue side */
+    width: 219px !important  ;
+
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0288d1;
+    overflow-x: hidden;
+    transition: 11s;
+    padding-top: 1px;
+  }
+}
+@media only screen and (min-width: 330px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: black;
+  }
+  /* citron atelier */
+  #center {
+    position: relative;
+    left: 18rem;
+    top: 6rem;
+    color: white;
+  }
+  #firstname {
+    position: relative;
+    bottom: 5rem;
+    right: 1rem;
+    font-family: Impact, fantasy;
+    font-size: 6rem;
+  }
+  #lastname {
+    position: relative;
+    bottom: 6rem;
+    right: 1rem;
+    font-family: Apple Chancery, cursive;
+    font-style: italic;
+    font-size: 4rem;
+  }
+  span {
+    color: white;
+    position: relative;
+    bottom: 28rem;
+    left: 2rem;
+    font-size: 10rem;
+  }
+
+  .sidenav {
+    text-align: center;
+    height: 100%;
+
+    /* width of blue side */
+    width: 230px !important  ;
+
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0288d1;
+    overflow-x: hidden;
+    transition: 11s;
+    padding-top: 1px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.1s;
+    padding: 30px;
+  }
+
+  .sidenav a:hover,
+  .offcanvas a:focus {
+    color: #f1f1f1;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+  }
+  #backdrop {
+    display: none;
+  }
+  #slogan {
+    display: none;
+  }
+  #starz {
+    display: none;
+  }
+  #starring {
+    display: none;
+  }
+  #passage {
+    display: none;
+  }
+  #extract {
+    display: none;
+  }
+  #previewer {
+    display: none;
+  }
+}
+@media only screen and (min-width: 430px) {
+  #center {
+    position: relative;
+    left: 18rem;
+    top: 10rem;
+    color: white;
+  }
+  #firstname {
+    position: relative;
+    bottom: 8rem;
+    right: 5rem;
+    font-family: Impact, fantasy;
+    font-size: 12rem;
+  }
+  #lastname {
+    position: relative;
+    bottom: 10rem;
+
+    font-family: Apple Chancery, cursive;
+    font-style: italic;
+    font-size: 5.9rem;
+  }
+  span {
+    font-size: 10rem;
+    position: relative;
+    left: 1rem;
+    bottom: 27rem;
+  }
+
+  #backdrop {
+    display: none;
+  }
+  #slogan {
+    display: none;
+  }
+  #starz {
+    display: none;
+  }
+  #starring {
+    display: none;
+  }
+  #passage {
+    display: none;
+  }
+  #extract {
+    display: none;
+  }
+  #previewer {
+    display: none;
+  }
+}
+/*
+@media only screen and (min-width: 630px){
+
+
+}*/
+
+/*
+@media only screen and (max-width: 840px) {
+  body {
+    text-align: center;
+    background-color: yellow;
+  }
+  /* border  */
+/*
+#backdrop {
+  position: relative;
+  top: 19px;
+  left: 20px;
+  width: 32rem;
+  height: 210px;
+  border: 7px solid red;
+  padding: 5px;
+  border-radius: 28px;
+}
+/* sweet scinece*/
+/*
+#slogan {
+  position: relative;
+  bottom: 78px;
+  font-size: 80px;
+}
+/* citron atelier */
+/*
+#center {
+  position: relative;
+  left: 29rem;
+  bottom: 26rem;
+  font-size: 7rem;
+}
+/* citron */
+/*
+#firstname {
+  font-family: Impact, fantasy;
+  font-weight: bold;
+}
+/*  atelier */
+/*
+#lastname {
+  position: relative;
+  bottom: 12rem;
+  font-family: Snell Roundhand, cursive;
+  font-style: italic;
+}
+/* starss */
+/*
+#Starz {
+  position: relative;
+  bottom: 67rem;
+  left: 75rem;
+  width: 30rem;
+  height: 14rem;
+  border: 5px solid;
+}
+/* more stars */
+/*
+#starring {
+  padding-right: 2rem;
+}
+/*  ROTATING circles */
+/*
+.circle {
+  background: white;
+  border: 3px solid;
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  display: inline-block;
+  position: relative;
+  left: 24rem;
+  bottom: 12rem;
+}
+/* random passage for something */
+/*
+#passage {
+  position: relative;
+  bottom: 54rem;
+  left: 25px;
+  border-radius: 28px;
+  width: 33rem;
+  height: 100rem;
+  border: 3px solid;
+  background: white;
+}
+/* random bits of words with meaning */
+/*
+#extract {
+  position: relative;
+  left: 43rem;
+  bottom: 160rem;
+  color: grey;
+  font-size: 5rem;
+}
+#previewer {
+  position: relative;
+  bottom: 150rem;
+  left: 2rem;
+  background-color: whitesmoke;
+  width: 98rem;
+  height: 60rem;
+  border: solid 2px;
+}
+#left-click {
+  position: relative;
+  right: 40rem;
+  display: inline-block;
+}
+#right-click {
+  position: relative;
+  left: 40rem;
+  display: inline-block;
+}
+.screen {
+  position: relative;
+  top: 25rem;
+  font-size: 9rem;
+}
+/* display hidden and out of site */
+/*
+span {
+  display: none;
+}
+
+.sidenav {
+  display: none;
+}
+
+.sidenav a {
+  display: none;
+}
+
+.sidenav a:hover,
+.offcanvas a:focus {
+  display: none;
+}
+
+.closebtn {
+  display: none;
+}
+
+/*
+@media only screen and (min-width: 930px){
+
+}*/
+/*
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: white;
+  }
+  /* border  */
+/*
+  #backdrop {
+    position: relative;
+    top: 19px;
+    left: 20px;
+    width: 32rem;
+    height: 210px;
+    border: 7px solid red;
+    padding: 5px;
+    border-radius: 28px;
+  }
+  /* sweet scinece*/
+/*
+  #slogan {
+    position: relative;
+    bottom: 78px;
+    font-size: 80px;
+  }
+  /* citron atelier */
+/*
+  #center {
+    position: relative;
+    left: 15rem;
+    bottom: 23rem;
+    font-size: 6rem;
+  }
+  /* citron */
+/*
+  #firstname {
+    font-family: Impact, fantasy;
+    font-weight: bold;
+  }
+  /*  atelier */
+/*
+  #lastname {
+    position: relative;
+    bottom: 10rem;
+    font-family: Snell Roundhand, cursive;
+    font-style: italic;
+  }
+  /* starss */
+/*
+  #Starz {
+    position: relative;
+    bottom: 59rem;
+    left: 70rem;
+    width: 30rem;
+    height: 14rem;
+    border: 5px solid;
+  }
+  /* more stars */
+/*
+  #starring {
+    padding-right: 2rem;
+  }
+  /*  ROTATING circles */
+/*
+  .circle {
+    background: white;
+    border: 3px solid;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    display: inline-block;
+    position: relative;
+    left: 12rem;
+    bottom: 5rem;
+  }
+  /* random passage for something */
+/*
+  #passage {
+    position: relative;
+    bottom: 49rem;
+    left: 25px;
+    border-radius: 28px;
+    width: 35rem;
+    height: 86rem;
+    border: 3px solid;
+    background: white;
+  }
+  /* random bits of words with meaning */
+/*
+  #extract {
+    position: relative;
+    left: 43rem;
+    bottom: 140rem;
+    color: grey;
+    font-size: 5rem;
+  }
+  #previewer {
+    position: relative;
+    bottom: 130rem;
+    left: 2rem;
+    background-color: whitesmoke;
+    width: 98rem;
+    height: 60rem;
+    border: solid 2px;
+  }
+  #left-click {
+    position: relative;
+    right: 40rem;
+    display: inline-block;
+  }
+  #right-click {
+    position: relative;
+    left: 40rem;
+    display: inline-block;
+  }
+  .screen {
+    position: relative;
+    top: 25rem;
+    font-size: 9rem;
+  }
+  /* display hidden and out of site */
+/*
+  span {
+    display: none;
+  }
+
+  .sidenav {
+    display: none;
+  }
+
+  .sidenav a {
+    display: none;
+  }
+
+  .sidenav a:hover,
+  .offcanvas a:focus {
+    display: none;
+  }
+
+  .closebtn {
+    display: none;
+  }
+}
+
+/*@media only screen and (min-width: 2000px) {
+  body {
+    background-color: brown;
+  }*/
