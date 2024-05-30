@@ -161,32 +161,34 @@ body {
     text-align: center;
     position: relative;
     color: white;
-
+    left: 13rem;
     top: 21rem;
     font-size: 1rem;
   }
   #firstname {
     position: relative;
-    right: 8rem;
+    right: 5.9rem;
     bottom: 20rem;
   }
   #lastname {
     position: relative;
-    bottom: 20rem;
-    right: 7rem;
+    bottom: 20.3rem;
+    right: 5rem;
+    font-size: 1rem;
+    font-style: italic;
   }
   span {
     color: white;
     position: relative;
-    bottom: 24rem;
-    left: 1rem;
-    font-size: 1rem;
+    bottom: 27rem;
+    left: 0.9rem;
+    font-size: 3rem;
   }
 
   .sidenav {
     text-align: center;
-    height: 98%;
-    width: 0;
+    height: 100%;
+    width: 110px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -205,6 +207,8 @@ body {
     display: block;
     transition: 0.1s;
     padding: 30px;
+    position: relative;
+    right: 1.1rem;
   }
 
   .sidenav a:hover,
@@ -216,8 +220,18 @@ body {
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 36px !important;
+    font-size: 36px;
     margin-left: 50px;
+  }
+  #PG1 {
+    position: relative;
+    bottom: 10rem;
+    left: 7.1rem;
+    width: 5.2rem;
+    height: 2.8rem;
+
+    border-radius: 15%;
+    border: solid 4px black;
   }
 
   #backdrop {
