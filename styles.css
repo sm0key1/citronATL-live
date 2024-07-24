@@ -167,7 +167,7 @@ body {
   }
   #firstname {
     position: relative;
-    right: 5.9rem;
+    right: 6rem;
     bottom: 20rem;
   }
   #lastname {
@@ -182,7 +182,8 @@ body {
     position: relative;
     bottom: 27rem;
     left: 0.9rem;
-    font-size: 3rem;
+    font-size: 2.8rem;
+    font-style: italic;
   }
 
   .sidenav {
@@ -226,12 +227,37 @@ body {
   #PG1 {
     position: relative;
     bottom: 10rem;
-    left: 7.1rem;
-    width: 5.2rem;
-    height: 2.8rem;
-
+    background-color: white;
+    left: 1.6rem;
+    width: 10rem;
+    height: 3rem;
     border-radius: 15%;
-    border: solid 4px black;
+    border: solid 4px lightskyblue;
+    animation-name: example;
+    animation-duration: 11ms;
+  }
+  @keyframes example {
+    0% {
+      background: linear-gradient(-10deg, white, #0288d1, silver);
+    }
+    15% {
+      background: linear-gradient(-25deg, white, #0288d1, white);
+    }
+    25% {
+      background: linear-gradient(-30deg, white, silver);
+    }
+    30% {
+      background: linear-gradient(-35deg, white, #0288d1, white);
+    }
+    40% {
+      background: linear-gradient(-40deg, silver, white);
+    }
+    50% {
+      background: linear-gradient(-45deg, #0288d1, silver);
+    }
+    100% {
+      background: linear-gradient(-55deg, white, #0288d1, white);
+    }
   }
 
   #backdrop {
